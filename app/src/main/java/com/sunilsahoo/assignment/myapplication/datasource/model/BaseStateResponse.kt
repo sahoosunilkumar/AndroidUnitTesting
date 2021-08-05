@@ -1,8 +1,6 @@
 package com.sunilsahoo.assignment.myapplication.datasource.model
 
 import androidx.annotation.VisibleForTesting
-import com.asda.android.base.core.statemanagement.type.IState
-import com.asda.android.base.core.statemanagement.type.State
 import com.asda.android.base.interfaces.IResponse
 
 /**

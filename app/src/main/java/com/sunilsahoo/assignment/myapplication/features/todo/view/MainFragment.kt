@@ -30,7 +30,7 @@ class MainFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-        viewModel.getTodo().subscribe()
+//        viewModel.getTodo().subscribe()
     }
 
 }

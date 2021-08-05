@@ -1,4 +1,4 @@
-package com.asda.android.base.core.statemanagement.type
+package com.sunilsahoo.assignment.myapplication.datasource.model
 
 import androidx.annotation.IntDef
 

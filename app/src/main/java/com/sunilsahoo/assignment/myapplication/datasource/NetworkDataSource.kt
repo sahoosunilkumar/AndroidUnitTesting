@@ -22,6 +22,10 @@ class NetworkDataSource {
             .map { BaseStateResponse(it) }
     }
 
+    fun isValid(input:String?): Boolean {
+        return input.isNullOrEmpty().not()
+    }
+
     private fun getApi(): NetworkApi {
         return NetworkApi.create()
     }
