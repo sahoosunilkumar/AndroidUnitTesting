@@ -4,6 +4,7 @@ import com.sunilsahoo.assignment.myapplication.features.todo.model.Todo
 import io.reactivex.Single
 import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
+import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
@@ -11,6 +12,8 @@ import retrofit2.http.GET
 interface NetworkApi {
     @GET("/todos")
     fun getTodos() : Single<List<Todo>>
+    @GET("/todos")
+    fun getTodoDetail() : Call<Todo>
 
     companion object {
         private const val BASE_URL = "https://jsonplaceholder.typicode.com/"

@@ -1,15 +1,9 @@
 package com.sunilsahoo.assignment.myapplication
 
-import android.util.Log
 import com.sunilsahoo.assignment.myapplication.datasource.DataSourceConfig
-import com.sunilsahoo.assignment.myapplication.datasource.NetworkApi
-import com.sunilsahoo.assignment.myapplication.datasource.NetworkRepo
-import com.sunilsahoo.assignment.myapplication.features.todo.model.Score
 import io.mockk.*
 import junit.framework.Assert.assertEquals
-import org.junit.AfterClass
 import org.junit.Before
-import org.junit.BeforeClass
 import org.junit.Test
 
 class UtilsTest {

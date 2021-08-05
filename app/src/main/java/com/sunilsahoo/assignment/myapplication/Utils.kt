@@ -2,9 +2,6 @@ package com.sunilsahoo.assignment.myapplication
 
 import androidx.annotation.VisibleForTesting
 import com.sunilsahoo.assignment.myapplication.datasource.DataSourceConfig
-import com.sunilsahoo.assignment.myapplication.datasource.NetworkApi
-import com.sunilsahoo.assignment.myapplication.datasource.NetworkRepo
-import com.sunilsahoo.assignment.myapplication.features.todo.model.Score
 
 class Utils {
     /**
